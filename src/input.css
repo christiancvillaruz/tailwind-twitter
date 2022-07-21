@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bebas+Neue&family=Caveat:wght@600&family=Inter:wght@300;400;800&family=Quicksand:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  body {
+    @apply bg-slate-100;
+    @apply font-inter;
+  }
+}
+
+#toggle:checked ~ label div.toggle-dot {
+  @apply translate-x-3;
+}
+
+.btn-follow::after {
+  content: "Following";
+}
+
+.btn-follow:hover::after {
+  content: "Unfollow"
+}

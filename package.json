@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-twitter",
+  "version": "1.0.0",
+  "description": "twitter mobile feed using tailwind css",
+  "main": "index.html",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tailwind-twitter"
+  },
+  "author": "christiancvillaruz",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.1.6"
+  }
+}
